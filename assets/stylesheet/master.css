@@ -1,0 +1,43 @@
+@font-face {
+  font-family: karla;
+  src: url(../font/Karla-Medium.ttf);
+}
+body {
+  background-color: hsl(218, 22%, 67%);
+}
+
+section {
+  font-size: 1rem;
+}
+section > .card_community {
+  background-color: hsl(204, 43%, 93%);
+}
+section > .card_community > h2 {
+  color: hsl(179, 49%, 45%);
+}
+@media screen and (min-width: 1200px) {
+  section > .card_community > p {
+    font-size: 1.2rem;
+  }
+}
+section > .card_community > p:nth-of-type(1) {
+  color: hsl(71, 73%, 54%);
+}
+section > .card_community > p:nth-of-type(2) {
+  color: hsl(218, 22%, 67%);
+}
+section .card_price {
+  background-color: hsl(179, 49%, 45%);
+  color: hsl(204, 43%, 93%);
+}
+section .card_price strong {
+  font-size: 1rem;
+}
+section .card_price button {
+  background-color: hsl(71, 73%, 54%);
+  font-size: 1rem;
+}
+section .card_list {
+  background-color: hsl(179, 49%, 48%);
+  color: hsl(204, 43%, 93%);
+}/*# sourceMappingURL=master.css.map */

@@ -1,0 +1,54 @@
+// .....colors.....
+$cyan: hsl(179, 49%, 45%);
+$l-cyan: hsl(179, 49%, 48%);
+$b-yellow: hsl(71, 73%, 54%);
+$l-gray: hsl(204, 43%, 93%);
+$g-blue: hsl(218, 22%, 67%);
+// .....font.....
+@font-face {
+    font-family: karla;
+    src: url(../font/Karla-Medium.ttf);
+}
+body{
+    background-color: $g-blue;
+}
+// .....container.....
+section{
+    font-size: 1rem;
+    // .....card1......
+    >.card_community{
+    background-color: $l-gray;
+
+        >h2{
+            color: $cyan;
+        }
+        >p{
+            @media screen and (min-width:1200px) {
+                font-size: 1.2rem;
+            }
+            &:nth-of-type(1){
+                color: $b-yellow;
+            }
+            &:nth-of-type(2){
+                color: $g-blue;
+            }
+        }
+    }
+    // ......card2.....
+    .card_price{
+        background-color: $cyan;
+        color: $l-gray;
+        strong{
+            font-size: 1rem;
+        }
+        button{
+            background-color: $b-yellow;
+            font-size: 1rem;
+        }
+    }
+    // ......card3.....
+    .card_list{
+        background-color: $l-cyan;
+        color: $l-gray;
+    }
+}
