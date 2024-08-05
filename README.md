@@ -1,16 +1,14 @@
 # frontend-task
 
-![Screenshot_2024_05_27-1](https://github.com/elnaz-eshtiaghi/signup-login/assets/146030206/c697c492-e502-4bcf-8b41-fffb5a51c95b)
+![New Project](https://github.com/user-attachments/assets/f31804bd-7078-4b76-b3e7-ec0f441b17cc)
 
-- [Demo Project](  https://elnaz-eshtiaghi.github.io/signup-login/)
+- [Demo Project](https://elnaz-eshtiaghi.github.io/frontend-task/)
 
 - Developed by elnaz eshtiaghi
 
 - Created - 2024
 
-- Technologies Used - Html , css , sass , bootstrap, javascript , api
-
-- Hooks Used : useState 
+- Technologies Used - Html , css , sass , bootstrap
 
 - Role - Frontend
 
